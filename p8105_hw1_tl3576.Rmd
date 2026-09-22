@@ -70,7 +70,7 @@ The mean of `fac_vec` is `r mean(pull(problem2_df, fac_vec))`.
 
 I can take the mean of `norm_samp` and `log_vec`, but not `char_vec` and `fac_vec` because R cannot translate those vectors into numeric values.
 
-```{r, results = "hide"}
+```{r, results = "hide", warning = FALSE}
 as.numeric(pull(problem2_df, log_vec))
 
 as.numeric(pull(problem2_df, char_vec))
