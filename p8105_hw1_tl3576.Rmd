@@ -31,7 +31,7 @@ In the `penguins` dataset, there are `r nrow(penguins)` rows and `r ncol(penguin
 
 8. Year
 
-The mean flipper length is `r mean(pull(penguins, flipper_length_mm), na.rm = TRUE)`.
+The mean flipper length is `r mean(pull(penguins, flipper_length_mm), na.rm = TRUE)` mm.
 
 Here is a scatterplot of bill length (mm) as the x-axis and flipper length (mm) as the y-axis.
 
